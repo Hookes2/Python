@@ -1,7 +1,7 @@
 #Password Checker
 
-user_name = 'Paul'
-password = 'LaughingOutLoud'
+user_name = input('What is your username? ')
+password = input('What is your password? ')
 password_length = len(password)
 hash_password = '*' * password_length
 
